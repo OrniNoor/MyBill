@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mainMasterLayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:id="@+id/lout1"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/lout2"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/lout3"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/lout4"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/lout5"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/lout6"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/lout7"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/lout8"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textColor="@color/primary_text"
+        android:id="@+id/textView13" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:id="@+id/backBtn2"
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

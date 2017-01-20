@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.radioactive.mybill.CustomActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView22"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Device/Appliance name"
+        android:background="@drawable/border"
+        android:id="@+id/editText1"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+android:background="@drawable/border"
+        android:id="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:hint="Watt rating (in watt)"
+    />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Add Custom Device"
+        android:textColor="@color/icons"
+        android:id="@+id/buttonAdd"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:id="@+id/backBtn22"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"
+        />
+</LinearLayout>
